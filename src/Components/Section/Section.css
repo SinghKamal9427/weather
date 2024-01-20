@@ -1,0 +1,143 @@
+.sec-f {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+    height: 20em;
+    width: 30em;
+}
+
+.sec-s {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+    height: 15em;
+    margin-bottom: 2em;
+    width: 30em;
+}
+
+.sec-t {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+    height: 20em;
+
+
+}
+
+
+.anmii-f {
+    height: 2.5em;
+}
+
+.textt-f {
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    color: rgb(65, 72, 77)
+}
+
+.textt-s {
+    font-size: 1.6em;
+    font-weight: bold;
+    letter-spacing: 0em;
+    color: black;
+}
+
+.textt-t {
+    position: relative;
+    margin-top: 7em;
+    text-align: center;
+
+    color: #EC7272;
+    font-weight: bolder;
+}
+
+.texxtt-s {
+
+    font-size: 1em;
+
+    color: #EC7272;
+    font-weight: bolder;
+}
+
+.anmii-s {
+    position: absolute;
+    top: 0em;
+    left: 5em;
+    height: 10em;
+    right: 5em;
+    z-index: -1;
+}
+
+.textt-ft {
+    text-align: center;
+    font-size: 1.1em;
+    letter-spacing: 0.2em;
+    margin-top: 1em;
+    font-weight: bold;
+    color: rgb(65, 72, 77)
+}
+
+.textt-st {
+    font-size: 3.2em;
+    color: #212a7d;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.textt-sh {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgba(65, 1, 1, 0.863);
+    text-align: center;
+
+}
+
+.textt-et {
+    font-size: 1em;
+    letter-spacing: 0.4em;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .sec-f,
+    .sec-s {
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.034), rgba(255, 255, 255, 0.505));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 40px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        background-image: radial-gradient(circle farthest-corner at 14.2% 27.5%, rgb(231, 233, 245) 0%, rgba(36, 46, 138, 0.495) 90%);
+        background-attachment: fixed;
+        height: 17em;
+        width: auto;
+
+
+    }
+
+    .sec-t {
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 40px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+        height: 20em;
+        margin: 2em;
+    }
+}

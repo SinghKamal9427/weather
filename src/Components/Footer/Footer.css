@@ -1,0 +1,8 @@
+.footer-f {
+    letter-spacing: 0.2em;
+}
+
+.link-f:hover {
+    color: #3d4de1;
+    cursor: pointer;
+}
